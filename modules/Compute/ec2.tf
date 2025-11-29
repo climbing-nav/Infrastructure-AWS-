@@ -40,15 +40,6 @@ resource "aws_security_group" "web_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # Custom 8080
-  ingress {
-    description = "Custom 8080"
-    from_port   = 8080
-    to_port     = 8080
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
   # 아웃바운드 모두 허용
   egress {
     description = "All outbound traffic allow"
