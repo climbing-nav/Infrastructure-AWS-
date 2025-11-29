@@ -1,0 +1,17 @@
+# 클로드 관련 파일
+.claude
+.mcp.json
+.gitignore
+
+# Terraform 관련 파일
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
